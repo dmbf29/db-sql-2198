@@ -70,8 +70,8 @@
 -- VALUES (value_for_column_one, value_for_column_two)
 
 
-INSERT INTO doctors (first_name, last_name, specialty)
-VALUES ('Doug', 'Y', 'Generalist');
+-- INSERT INTO doctors (first_name, last_name, specialty)
+-- VALUES ('Doug', 'Y', 'Generalist');
 
 
 -- UPDATE table_name
@@ -85,7 +85,12 @@ VALUES ('Doug', 'Y', 'Generalist');
 
 -- DELETE FROM table_name WHERE id = 2;
 
-DELETE FROM doctors WHERE id = 7;
+-- DELETE FROM doctors WHERE id = 7;
 
 
-SELECT * FROM doctors;
+-- SELECT * FROM doctors;
+
+-- https://www.airbnb.com/rooms/1194121825390443254
+
+-- SELECT * FROM rooms
+-- WHERE id = 1194121825390443254;
